@@ -1,0 +1,98 @@
+.header{
+    background-color: black;
+    color: beige;
+    height: 30px;
+}
+/* for first row  button */
+#for_size{
+    width: 60px;
+    height: 30px;
+}
+.for_searchbar{
+    width: 300px;
+}
+/*for 2nd row  */
+#f_name{
+    width: 100%;
+    border-radius: 3px;
+    border-width: 1px;
+
+}
+label{
+    font-size: small;
+}
+input{
+font-size: small;
+}
+
+
+
+/* for 3rd row */
+#customize_coloumn1{
+    width: 100%;
+}
+#customize_coloumn2{
+    width: 100%;
+}
+/* for fourth row */
+#f-name{
+    width: 100%;
+    border-radius: 3px;
+    border-width: 1px;
+}
+.bgc{
+    background-color: rgb(243, 234, 234);
+}
+/* for 6th row */
+#for_6throw{
+    width: 100%;
+    border-radius: 3px;
+    border-width: 1px;
+}
+/* for 7th row */
+#for_7throw{
+
+width:100% ; 
+border-radius: 3px;
+border-width: 1px;
+}
+.customize_card .card-body{
+    height: 90px;
+}
+/* for last row */
+.customize_button .btn{
+width: 100%; 
+background-color: lightcyan;
+color: black;
+font-size: smaller;
+}
+/* .customize_group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.customize_group .submit {
+     background-color: blue;
+     width: 40%;
+}
+.customize_group .cancel{
+    width: 40%;
+
+}
+.customize_group .d-md-block{
+    padding-left: 30px;
+    display: inline-block;
+}
+/*  */
+.second_border{
+    padding: 15px;
+}
+.second_border .btn{
+justify-content: space-between;
+background-color: rgb(243, 234, 234);
+color: black;
+border:  1px solid grey;
+border-radius: 3px;
+font-weight: 600;
+
+}

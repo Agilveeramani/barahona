@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- local css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- icon css -->
+    
+</head>
+<body>
+      <!-- container starts -->
+      <div class="container">
+        <!-- header starts -->
+        <div class="header">
+            <i class="fa-brands fa-wordpress">Logo</i>
+            <div class="notifications">
+                <i class="fa-light fa-bell"></i>
+                <i class="fa-solid fa-square-user"></i>
+            </div>
+        </div>
+        <!-- header ends -->
+        <div class="row">
+            <div class="col-6">
+                <!-- calender purpose -->
+                <div class="calender">
+                   
+
+                </div>
+                <!-- calender ends -->
+            </div>
+            <!-- col ends -->
+
+            <div class="col-6">
+             <!-- for nav  -->
+             <div class="customize_nav  ">
+                <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Appointment</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Docter</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Patient</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Payment</a>
+                      </li>
+                  </ul>
+
+             </div>
+             <!-- customize nav ends -->
+             <!-- for border purpose -->
+             <div class="border p-2 border-opacity-30">
+
+                <div class="row">
+
+                    <div class="col-6"> 
+                        <div>
+                            <h4>  Book Appointment   </h4>
+                        </div>
+                       
+                    </div>
+                    <div class="col-6">
+                        Appointment Status:
+                        <button id="for_size" type="button" class="btn btn-outline-success btn-sm ">open</button>
+
+                    </div>
+
+                </div>
+                <!-- row one ends -->
+                <div class="row">
+                    <div class="col-6 for_searchbar">
+                        <label  >
+                            <input class="for_searchbar" type="text" placeholder ="Search..">
+                        </label>  <br>
+                    </div>
+                    <div class="col-6"></div>
+                </div>
+
+               
+
+
+              
+                <h6>General Details</h6>
+                <!-- row 2 starts -->
+
+                <div class="row">
+                    <!-- first col -->
+                    <div class="col-3 ">
+
+                        <form >
+                            <label id="f-name"  >First name:</label><br>
+                            <input type=" text" id="f_name"  ><br>
+                            </form>
+                    </div>
+
+                    <div class="col-3 ">
+                        <form >
+                            <label >Middle name:</label><br>
+                            <input type=" text" id="f_name"  ><br>
+                            </form>
+                    </div>
+                    <div class="col-3 ">
+                        <form >
+                            <label >Last name:</label><br>
+                            <input type=" text" id="f_name"  ><br>
+                            </form>
+                    </div>
+                    <div class="col-3 ">
+                        <form >
+                            <label >Nick name:</label><br>
+                            <input type=" text" id="f_name"  ><br>
+                            </form>
+                    </div>
+                   
+                </div>
+                <!-- row 2 ends -->
+                <!-- row 3 starts -->
+                <div class="row">
+                    <div class="col-8 ">
+                        <form >
+                            <label >Name in Arabic:</label><br>
+                            <input type=" text" id="customize_coloumn1"><br>
+                            </form>
+
+                    </div>
+                    <div class="col-4 ">
+                        <form  >
+                            <label >Age</label><br>
+                            <input type=" text" id="customize_coloumn2"><br>
+                            </form>
+
+                    </div>
+                </div>
+                <!-- row 3 ends -->
+                <!-- row 4 starts -->
+                <div class="row">
+                    <div class="col-3">
+                        <form >
+                            <label >File No</label><br>
+                            <input type=" text"  id="f-name"><br>
+                            </form>
+
+                    </div>
+                    <div class="col-3">
+                        <form >
+                            <label >Nationality/IQAMAID </label><br>
+                            <input type=" text"  id="f-name"><br>
+                            </form>
+
+                    </div>
+                    <div class="col-3 ">
+                        <form >
+                            <label >Appointment Date </label><br>
+                            <input class="bgc" type=" text" value="October 20,2022" id="f-name"><br>
+                            </form>
+
+                    </div>
+                    <div class="col-3 ">
+                        <label >Appointment Time </label><br>
+                        <input class="bgc" type=" text" value="11.51AM" id="f-name"><br>
+                        </form>
+
+                    </div>
+                </div>
+                <!-- row 4 ends -->
+                <!-- row 5 starts -->
+                <div class="row">
+                    <div class="col-3">
+                        <form >
+                            <label >Date of Birth</label><br>
+                            <input type=" text"  id="f-name"><br>
+                            </form>
+
+                    </div>
+                    <div class="col-3">
+                        <form >
+                            <label >Gender</label><br>
+                            <input type=" text"  id="f-name"><br>
+                            </form>
+
+                    </div>
+                    <div class="col-3">
+                        <form >
+                            <label >Mobile Number</label><br>
+                            <input type=" text"  id="f-name"><br>
+                            </form>
+                    </div>
+                    <div class="col-3"></div>
+                </div>
+                <!-- row 5 ends -->
+                <!-- row 6 starts -->
+                <div class="row">
+                    <div class="col-3">
+                        <form >
+                            <label >Email</label><br>
+                            <input type=" text"  id="f-name"><br>
+                            </form>
+
+                    </div>
+                    <div class="col-6">
+                        <form >
+                            <label >Docter</label><br>
+                            <input type=" text"  id="for_6throw"><br>
+                            </form>
+                    </div>
+                    <div class="col-3"></div>
+                </div>
+                <!-- row 6 ends -->
+                <!-- row 7 starts -->
+                <div class="row">
+                    <div class="col-3">
+                        <form action="">
+                            <label for="">Appointment Type </label><br>
+                            <input type="text" id="for_7throw"> 
+                        </form>
+                    </div>
+                    <div class="col-3">
+                        <form action="">
+                            <label for="">Source of Refferal </label><br>
+                            <input type="text" id="for_7throw"> 
+                        </form>
+                    </div>
+                    <div class="col-3"></div>
+                    <div class="col-3"></div>
+                </div><br>
+                <!-- row 7 ends -->
+                <!-- row 8 starts -->
+               <div class="row">
+                <div class="col-6">
+                    <!-- customize card starts -->
+                    <div class="customize_card">
+                    <div class="card">
+                        <div class="card-body">
+                        </div>
+                      </div>
+
+                    </div>
+                    <!-- customize card ends -->
+                </div>
+                <div class="col-6"></div>
+               </div>
+
+             </div>
+             <!-- border 2 ends -->
+             <div class="border"><br>
+
+                <div class="row ">
+                    <div class="col-3 customize_button">
+                        <button type="button" class="btn btn-secondary btn-sm">DocterConsulting </button>        
+                    </div>
+                    <div class="col-3 customize_button">
+                        <button type="button" class="btn btn-secondary btn-sm">Docter Day </button>        
+                    </div>
+                    <div class="col-6">
+                        <div class="customize_group">
+                            <div class="d-grid gap-2 d-md-block">
+                                <button type="button" class="btn btn-secondary btn-sm cancel">cancel</button>
+                                <button type="button" class="btn btn-secondary btn-sm submit">submit</button> 
+                              </div>
+                        </div><br>
+                        <!-- customize group ends -->
+                    </div>
+                    <!-- col ends -->
+                </div>
+                <!-- row ends -->
+
+             </div>
+             <!-- border 2 ends -->
+             
+            </div>
+            <!-- 2col ends -->
+        </div>
+        <!-- 1row ends -->
+
+    <!-- for bootom purpose new row -->
+            <div class="border ">
+        <div class="row ">
+            <div class="col-12 second_border">
+                <button type="button" class="btn btn-primary"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">  RECALL</button>
+
+                  <button type="button" class="btn btn-primary"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"> RESCHEDULE </button>
+
+                  <button type="button" class="btn btn-primary"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"> CONFIRM </button>
+
+                  <button type="button" class="btn btn-primary"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"> CANCELLATION </button>
+
+                  <button type="button" class="btn btn-primary"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"> FACE-SHEET </button>
+
+                  <button type="button" class="btn btn-primary"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"> XH-PMT </button>
+
+                  <button type="button" class="btn btn-primary"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"> CHECK-OUT </button>
+
+                  <button type="button" class="btn btn-primary"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"> ERS </button>
+
+                  <button type="button" class="btn btn-primary"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">ASSMT&PLAN </button>
+
+                  <button type="button" class="btn btn-primary"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"> BILLING </button>
+                  <button type="button" class="btn btn-primary"
+                  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"> PATIENT&INFO </button>
+            </div>
+
+        </div>
+        <!-- row ends -->
+    </div>
+    <!-- border ends -->
+
+
+
+    </div>
+    <!-- container ends -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha383-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>
